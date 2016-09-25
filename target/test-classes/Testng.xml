@@ -1,0 +1,9 @@
+<suite name ="testsuite">
+<parameter name="browserType" value="firefox"/>
+<parameter name ="appURL" value ="https://www.facebook.com" />
+<test name ="test">
+<classes>
+<class name ="com.test.pack.test1"/>
+</classes>
+</test>
+</suite>

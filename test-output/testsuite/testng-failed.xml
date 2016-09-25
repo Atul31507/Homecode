@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testsuite]">
+  <parameter name="appURL" value="https://www.facebook.com"/>
+  <test name="test(failed)">
+    <parameter name="appURL" value="https://www.facebook.com"/>
+    <classes>
+      <class name="com.test.pack.test1">
+        <methods>
+          <include name="testpage"/>
+        </methods>
+      </class> <!-- com.test.pack.test1 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [testsuite] -->
